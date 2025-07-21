@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Pinterest.Api.props" />
+</Project>
