@@ -1,4 +1,8 @@
 
+using Pinterest.Api.Configurations;
+using Pinterest.Api.Endpoints;
+using Pinterest.Api.Extensions;
+
 namespace Pinterest.Api
 {
     public class Program
@@ -14,6 +18,14 @@ namespace Pinterest.Api
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.ConfigureDataBase();
+            builder.ConfigurationJwtAuth();
+            builder.ConfigureJwtSettings();
+            builder.ConfigureSerilog();
+            builder.Services.ConfigureDependecies();
+
+            ServiceCollectionExtensions.AddSwaggerWithJwt(builder.Services);
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -27,6 +39,8 @@ namespace Pinterest.Api
 
             app.UseAuthorization();
 
+            app.MapAuthEndpoints();
+            app.MapRoleEndpoints();
 
             app.MapControllers();
 

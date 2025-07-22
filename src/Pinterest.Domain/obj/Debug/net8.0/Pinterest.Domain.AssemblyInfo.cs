@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pinterest.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2595dc5ec8555ee7835f1aa0387af7c47b70f58d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4652b0b2a7555ae61f058f34b8992619dccb40b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pinterest.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pinterest.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

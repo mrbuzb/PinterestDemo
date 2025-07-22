@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Pinterest.Core/1.0.0": {
+        "runtime": {
+          "Pinterest.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pinterest.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
