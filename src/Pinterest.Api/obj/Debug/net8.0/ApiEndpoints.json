@@ -1,5 +1,88 @@
 [
   {
+    "ContainingType": "Pinterest.Api.Endpoints.AdminEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAdminEndpoints\u003Eb__0_1",
+    "RelativePath": "api/admin/delete-user-by-id",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "AdminManagement"
+    ],
+    "EndpointName": "DeleteUser"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.AdminEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAdminEndpoints\u003Eb__0_0",
+    "RelativePath": "api/admin/get-all-users-by-role",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "AdminManagement"
+    ],
+    "EndpointName": "GetAllUsersByRole"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.AdminEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAdminEndpoints\u003Eb__0_2",
+    "RelativePath": "api/admin/update-role",
+    "HttpMethod": "PATCH",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "userRole",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "AdminManagement"
+    ],
+    "EndpointName": "UpdateUserRole"
+  },
+  {
     "ContainingType": "Pinterest.Api.Endpoints.AuthEndpoints\u002B\u003C\u003Ec",
     "Method": "\u003CMapAuthEndpoints\u003Eb__3_1",
     "RelativePath": "api/auth/confirm-code",
@@ -21,7 +104,7 @@
       }
     ],
     "Tags": [
-      "Authentication"
+      "AuthenticationManagement"
     ],
     "EndpointName": "ConfirmCode"
   },
@@ -47,7 +130,7 @@
       }
     ],
     "Tags": [
-      "Authentication"
+      "AuthenticationManagement"
     ],
     "EndpointName": "LogOut"
   },
@@ -73,7 +156,7 @@
       }
     ],
     "Tags": [
-      "Authentication"
+      "AuthenticationManagement"
     ],
     "EndpointName": "Login"
   },
@@ -99,7 +182,7 @@
       }
     ],
     "Tags": [
-      "Authentication"
+      "AuthenticationManagement"
     ],
     "EndpointName": "RefreshToken"
   },
@@ -125,7 +208,7 @@
       }
     ],
     "Tags": [
-      "Authentication"
+      "AuthenticationManagement"
     ],
     "EndpointName": "SendCode"
   },
@@ -151,14 +234,175 @@
       }
     ],
     "Tags": [
-      "Authentication"
+      "AuthenticationManagement"
     ],
     "EndpointName": "SignUp"
   },
   {
-    "ContainingType": "Pinterest.Api.Endpoints.RoleEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapRoleEndpoints\u003Eb__0_0",
-    "RelativePath": "api/role/get-all-roles",
+    "ContainingType": "Pinterest.Api.Endpoints.CommentEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommentEndpoints\u003Eb__0_0",
+    "RelativePath": "api/comment/add",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "Pinterest.Application.Dto_s.CommentCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CommentManagement"
+    ],
+    "EndpointName": "AddComment"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.CommentEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommentEndpoints\u003Eb__0_3",
+    "RelativePath": "api/comment/delete",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CommentManagement"
+    ],
+    "EndpointName": "DeleteComment"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.CommentEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommentEndpoints\u003Eb__0_1",
+    "RelativePath": "api/comment/get-all-by-pin-id",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pinId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CommentManagement"
+    ],
+    "EndpointName": "GetAllByPinId"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.CommentEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommentEndpoints\u003Eb__0_2",
+    "RelativePath": "api/comment/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CommentManagement"
+    ],
+    "EndpointName": "GetByPinId"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.PinEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPinEndpoints\u003Eb__0_2",
+    "RelativePath": "api/pin/add",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pin",
+        "Type": "Pinterest.Application.Dto_s.PinHelper",
+        "IsRequired": true
+      },
+      {
+        "Name": "img",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "PinManagement"
+    ],
+    "EndpointName": "AddPin"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.PinEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPinEndpoints\u003Eb__0_3",
+    "RelativePath": "api/pin/delete",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pinId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "PinManagement"
+    ],
+    "EndpointName": "DeletePin"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.PinEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPinEndpoints\u003Eb__0_1",
+    "RelativePath": "api/pin/get-all",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -171,7 +415,151 @@
       }
     ],
     "Tags": [
-      "UserRole Management"
+      "PinManagement"
+    ],
+    "EndpointName": "GetAllPin"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.PinEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPinEndpoints\u003Eb__0_0",
+    "RelativePath": "api/pin/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pinId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "PinManagement"
+    ],
+    "EndpointName": "GetPinById"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.PinEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPinEndpoints\u003Eb__0_4",
+    "RelativePath": "api/pin/get-by-user",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "PinManagement"
+    ],
+    "EndpointName": "GetPinByUser"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.PinLikeEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPinLikeEndpoints\u003Eb__0_2",
+    "RelativePath": "api/pinlike/has-user-liked",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pinId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "PinLikeManagement"
+    ],
+    "EndpointName": "HasUserLiked"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.PinLikeEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPinLikeEndpoints\u003Eb__0_0",
+    "RelativePath": "api/pinlike/like",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pinId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "PinLikeManagement"
+    ],
+    "EndpointName": "Like"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.PinLikeEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPinLikeEndpoints\u003Eb__0_1",
+    "RelativePath": "api/pinlike/unlike",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pinId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "PinLikeManagement"
+    ],
+    "EndpointName": "UnLike"
+  },
+  {
+    "ContainingType": "Pinterest.Api.Endpoints.RoleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRoleEndpoints\u003Eb__0_0",
+    "RelativePath": "api/role/get-all",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "UserRoleManagement"
     ],
     "EndpointName": "GetAllRoles"
   },

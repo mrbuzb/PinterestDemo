@@ -5,10 +5,89 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/admin/get-all-users-by-role": {
+      "get": {
+        "tags": [
+          "AdminManagement"
+        ],
+        "operationId": "GetAllUsersByRole",
+        "parameters": [
+          {
+            "name": "role",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/delete-user-by-id": {
+      "delete": {
+        "tags": [
+          "AdminManagement"
+        ],
+        "operationId": "DeleteUser",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/update-role": {
+      "patch": {
+        "tags": [
+          "AdminManagement"
+        ],
+        "operationId": "UpdateUserRole",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "userRole",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/auth/send-code": {
       "post": {
         "tags": [
-          "Authentication"
+          "AuthenticationManagement"
         ],
         "operationId": "SendCode",
         "requestBody": {
@@ -31,7 +110,7 @@
     "/api/auth/confirm-code": {
       "post": {
         "tags": [
-          "Authentication"
+          "AuthenticationManagement"
         ],
         "operationId": "ConfirmCode",
         "requestBody": {
@@ -54,7 +133,7 @@
     "/api/auth/sign-up": {
       "post": {
         "tags": [
-          "Authentication"
+          "AuthenticationManagement"
         ],
         "operationId": "SignUp",
         "requestBody": {
@@ -77,7 +156,7 @@
     "/api/auth/login": {
       "post": {
         "tags": [
-          "Authentication"
+          "AuthenticationManagement"
         ],
         "operationId": "Login",
         "requestBody": {
@@ -100,7 +179,7 @@
     "/api/auth/refresh-token": {
       "put": {
         "tags": [
-          "Authentication"
+          "AuthenticationManagement"
         ],
         "operationId": "RefreshToken",
         "requestBody": {
@@ -123,7 +202,7 @@
     "/api/auth/log-out": {
       "delete": {
         "tags": [
-          "Authentication"
+          "AuthenticationManagement"
         ],
         "operationId": "LogOut",
         "parameters": [
@@ -136,6 +215,290 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/comment/add": {
+      "post": {
+        "tags": [
+          "CommentManagement"
+        ],
+        "operationId": "AddComment",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommentCreateDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/comment/get-all-by-pin-id": {
+      "get": {
+        "tags": [
+          "CommentManagement"
+        ],
+        "operationId": "GetAllByPinId",
+        "parameters": [
+          {
+            "name": "pinId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/comment/get-by-id": {
+      "get": {
+        "tags": [
+          "CommentManagement"
+        ],
+        "operationId": "GetByPinId",
+        "parameters": [
+          {
+            "name": "commentId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/comment/delete": {
+      "delete": {
+        "tags": [
+          "CommentManagement"
+        ],
+        "operationId": "DeleteComment",
+        "parameters": [
+          {
+            "name": "commentId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pinlike/like": {
+      "post": {
+        "tags": [
+          "PinLikeManagement"
+        ],
+        "operationId": "Like",
+        "parameters": [
+          {
+            "name": "pinId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pinlike/unlike": {
+      "delete": {
+        "tags": [
+          "PinLikeManagement"
+        ],
+        "operationId": "UnLike",
+        "parameters": [
+          {
+            "name": "pinId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pinlike/has-user-liked": {
+      "get": {
+        "tags": [
+          "PinLikeManagement"
+        ],
+        "operationId": "HasUserLiked",
+        "parameters": [
+          {
+            "name": "pinId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pin/get-by-id": {
+      "get": {
+        "tags": [
+          "PinManagement"
+        ],
+        "operationId": "GetPinById",
+        "parameters": [
+          {
+            "name": "pinId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pin/get-all": {
+      "get": {
+        "tags": [
+          "PinManagement"
+        ],
+        "operationId": "GetAllPin",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pin/add": {
+      "post": {
+        "tags": [
+          "PinManagement"
+        ],
+        "operationId": "AddPin",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "img",
+                  "pin"
+                ],
+                "type": "object",
+                "properties": {
+                  "pin": {
+                    "$ref": "#/components/schemas/PinHelper"
+                  },
+                  "img": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "pin": {
+                  "style": "form"
+                },
+                "img": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pin/delete": {
+      "delete": {
+        "tags": [
+          "PinManagement"
+        ],
+        "operationId": "DeletePin",
+        "parameters": [
+          {
+            "name": "pinId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pin/get-by-user": {
+      "get": {
+        "tags": [
+          "PinManagement"
+        ],
+        "operationId": "GetPinByUser",
         "responses": {
           "200": {
             "description": "OK"
@@ -162,10 +525,10 @@
         }
       }
     },
-    "/api/role/get-all-roles": {
+    "/api/role/get-all": {
       "get": {
         "tags": [
-          "UserRole Management"
+          "UserRoleManagement"
         ],
         "operationId": "GetAllRoles",
         "responses": {
@@ -217,6 +580,20 @@
   },
   "components": {
     "schemas": {
+      "CommentCreateDto": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "nullable": true
+          },
+          "pinId": {
+            "type": "integer",
+            "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
       "ConfirmCodeRequest": {
         "type": "object",
         "properties": {
@@ -225,6 +602,20 @@
             "nullable": true
           },
           "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PinHelper": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
             "type": "string",
             "nullable": true
           }

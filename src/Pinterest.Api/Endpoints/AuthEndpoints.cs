@@ -19,7 +19,7 @@ public static class AuthEndpoints
     {
         var userGroup = app.MapGroup("/api/auth")
             .AllowAnonymous()
-            .WithTags("Authentication");
+            .WithTags("AuthenticationManagement");
 
 
         userGroup.MapPost("/send-code",

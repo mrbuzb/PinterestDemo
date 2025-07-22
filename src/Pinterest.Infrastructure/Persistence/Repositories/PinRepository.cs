@@ -9,7 +9,7 @@ public class PinRepository(AppDbContext _context) : IPinRepository
 {
     public async Task<Pin> GetByIdAsync(long pinId)
     {
-        var pin =await _context.Pins.FirstOrDefaultAsync(x=>x.Id == pinId);
+        var pin =await _context.Pins.Include(x=>x.Comments).ThenInclude(x => x.User).Include(x=>x.Likes).FirstOrDefaultAsync(x=>x.Id == pinId);
         if(pin == null)
         {
             throw new EntityNotFoundException();
@@ -19,7 +19,7 @@ public class PinRepository(AppDbContext _context) : IPinRepository
 
     public async Task<List<Pin>> GetAllAsync()
     {
-        return await _context.Pins.ToListAsync();
+        return await _context.Pins.Include(x=>x.Comments).ThenInclude(x => x.User).Include(_=>_.Likes).ToListAsync();
     }
 
     public async Task UpdateAsync(Pin pin)
@@ -41,8 +41,8 @@ public class PinRepository(AppDbContext _context) : IPinRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<IEnumerable<Pin>> GetPinsByUserIdAsync(long userId)
+    public async Task<List<Pin>> GetPinsByUserIdAsync(long userId)
     {
-        return await _context.Pins.Where(x => x.CreatedById == userId).ToListAsync();
+        return await _context.Pins.Include(x=>x.Likes).Include(x=>x.Comments).ThenInclude(x=>x.User).Where(x => x.CreatedById == userId).ToListAsync();
     }
 }

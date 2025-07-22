@@ -202,3 +202,5 @@ D:\Pinterest\PinterestDemo\src\Pinterest.Api\bin\Debug\net8.0\FluentEmail.Smtp.d
 D:\Pinterest\PinterestDemo\src\Pinterest.Api\bin\Debug\net8.0\FluentValidation.dll
 D:\Pinterest\PinterestDemo\src\Pinterest.Api\bin\Debug\net8.0\Pinterest.Core.dll
 D:\Pinterest\PinterestDemo\src\Pinterest.Api\bin\Debug\net8.0\Pinterest.Core.pdb
+D:\Pinterest\PinterestDemo\src\Pinterest.Api\bin\Debug\net8.0\MegaApiClient.dll
+D:\Pinterest\PinterestDemo\src\Pinterest.Api\bin\Debug\net8.0\Newtonsoft.Json.dll

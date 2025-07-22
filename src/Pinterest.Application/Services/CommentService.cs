@@ -7,7 +7,7 @@ namespace Pinterest.Application.Services;
 
 public class CommentService(ICommentRepository _repo) : ICommentService
 {
-    public async Task AddAsync(CommentCreateDto comment,long userId)
+    public async Task AddAsync(CommentCreateDto comment, long userId)
     {
         var commentEntity = new Comment
         {
@@ -19,12 +19,13 @@ public class CommentService(ICommentRepository _repo) : ICommentService
         await _repo.AddAsync(commentEntity);
     }
 
-    public async Task DeleteAsync(long commentId,long userId)
+    public async Task DeleteAsync(long commentId, long userId)
     {
         var comment = await _repo.GetByIdAsync(commentId);
-        if(comment.UserId == userId || comment.Pin.CreatedById == userId)
+        if (comment.UserId == userId || comment.Pin.CreatedById == userId)
         {
             await _repo.DeleteAsync(comment);
+            return;
         }
 
         throw new NotAllowedException();
@@ -32,7 +33,7 @@ public class CommentService(ICommentRepository _repo) : ICommentService
 
     public async Task<List<CommentDto>> GetAllByPinIdAsync(long pinId)
     {
-        var comments =  await _repo.GetAllByPinIdAsync(pinId);
+        var comments = await _repo.GetAllByPinIdAsync(pinId);
         return comments.Select(Converter).ToList();
     }
 
@@ -46,7 +47,7 @@ public class CommentService(ICommentRepository _repo) : ICommentService
         return new CommentDto
         {
             CreatedAt = comment.CreatedAt,
-            PinId = comment.PinId,  
+            PinId = comment.PinId,
             Id = comment.Id,
             Text = comment.Text,
             UserName = comment.User.UserName,

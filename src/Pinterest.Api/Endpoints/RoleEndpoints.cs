@@ -9,9 +9,9 @@ public static class RoleEndpoints
     {
         var userGroup = app.MapGroup("/api/role")
             .RequireAuthorization()
-            .WithTags("UserRole Management");
+            .WithTags("UserRoleManagement");
 
-        userGroup.MapGet("/get-all-roles", [Authorize(Roles = "Admin, SuperAdmin")]
+        userGroup.MapGet("/get-all", [Authorize(Roles = "Admin, SuperAdmin")]
         async (IRoleService _roleService) =>
         {
             var roles = await _roleService.GetAllRolesAsync();

@@ -21,12 +21,12 @@ public class CommentRepository(AppDbContext _context) : ICommentRepository
 
     public async Task<List<Comment>> GetAllByPinIdAsync(long pinId)
     {
-        return await _context.Comments.ToListAsync();
+        return await _context.Comments.Include(x=>x.User).ToListAsync();
     }
 
     public async Task<Comment> GetByIdAsync(long id)
     {
-        var comment =await _context.Comments.FirstOrDefaultAsync(c => c.Id == id);
+        var comment =await _context.Comments.Include(x => x.User).FirstOrDefaultAsync(c => c.Id == id);
 
         if(comment is null)
         {

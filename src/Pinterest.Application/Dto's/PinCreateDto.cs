@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Pinterest.Domain.Entities;
 
 namespace Pinterest.Application.Dto_s;
 

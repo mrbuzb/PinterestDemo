@@ -1,4 +1,3 @@
-
 using Pinterest.Api.Configurations;
 using Pinterest.Api.Endpoints;
 using Pinterest.Api.Extensions;
@@ -24,6 +23,10 @@ namespace Pinterest.Api
             builder.ConfigureSerilog();
             builder.Services.ConfigureDependecies();
 
+
+
+
+
             ServiceCollectionExtensions.AddSwaggerWithJwt(builder.Services);
 
             var app = builder.Build();
@@ -35,12 +38,19 @@ namespace Pinterest.Api
                 app.UseSwaggerUI();
             }
 
+
+
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapAuthEndpoints();
             app.MapRoleEndpoints();
+            app.MapAdminEndpoints();
+            app.MapCommentEndpoints();
+            app.MapPinLikeEndpoints();
+            app.MapPinEndpoints();
 
             app.MapControllers();
 

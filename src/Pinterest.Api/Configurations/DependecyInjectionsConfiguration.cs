@@ -14,6 +14,12 @@ public static class DependecyInjectionsConfiguration
     {
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<IRoleService, RoleService>();
+        services.AddScoped<IPinRepository, PinRepository>();
+        services.AddScoped<IPinService, PinService>();
+        services.AddScoped<IPinLikeRepository, PinLikeRepository>();
+        services.AddScoped<IPinLikeService, PinLikeService>();
+        services.AddScoped<ICommentRepository, CommentRepository>();
+        services.AddScoped<ICommentService, CommentService>();
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
         services.AddScoped<IRoleRepository, UserRoleRepository>();

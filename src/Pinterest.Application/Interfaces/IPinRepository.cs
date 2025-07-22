@@ -9,5 +9,5 @@ public interface IPinRepository
     Task AddAsync(Pin pin);
     Task UpdateAsync(Pin pin);
     Task DeleteAsync(Pin pin);
-    Task<IEnumerable<Pin>> GetPinsByUserIdAsync(long userId);
+    Task<List<Pin>> GetPinsByUserIdAsync(long userId);
 }
