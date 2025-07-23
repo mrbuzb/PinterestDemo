@@ -24,7 +24,18 @@ namespace Pinterest.Api
             builder.Services.ConfigureDependecies();
 
 
-
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowLocalhost5173", policy =>
+                {
+                    policy.WithOrigins(
+                        "http://localhost:4200",
+                        "http://localhost:5173"
+                    )
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+                });
+            });
 
 
             ServiceCollectionExtensions.AddSwaggerWithJwt(builder.Services);
@@ -38,7 +49,8 @@ namespace Pinterest.Api
                 app.UseSwaggerUI();
             }
 
-
+            app.UseCors("AllowLocalhost5173");
+            app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

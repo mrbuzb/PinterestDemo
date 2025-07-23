@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pinterest.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caea71128c72e06e1f92cc919e6f732f91401bc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d6f8ed8052f9c9c6710b553a9dfeb17ee89a3c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pinterest.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pinterest.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
