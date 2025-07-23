@@ -49,7 +49,7 @@ public static class PinEndpoints
             await _service.AddAsync(pinDto, long.Parse(userId));
             return Results.Ok();
         })
-        .WithName("AddPin").DisableAntiforgery(); ;
+        .WithName("AddPin").DisableAntiforgery();
 
 
         userGroup.MapDelete("/delete",
