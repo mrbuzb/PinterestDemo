@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Pinterest\\PinterestDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{176A2064-7605-4088-867A-FEF72202A684}|src\\Pinterest.Api\\Pinterest.Api.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.api\\endpoints\\pinendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{176A2064-7605-4088-867A-FEF72202A684}|src\\Pinterest.Api\\Pinterest.Api.csproj|solutionrelative:src\\pinterest.api\\endpoints\\pinendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.infrastructure\\persistence\\repositories\\pinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|solutionrelative:src\\pinterest.infrastructure\\persistence\\repositories\\pinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.infrastructure\\persistence\\repositories\\pinlikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|solutionrelative:src\\pinterest.infrastructure\\persistence\\repositories\\pinlikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\services\\pinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|solutionrelative:src\\pinterest.application\\services\\pinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{176A2064-7605-4088-867A-FEF72202A684}|src\\Pinterest.Api\\Pinterest.Api.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.api\\endpoints\\pinendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{176A2064-7605-4088-867A-FEF72202A684}|src\\Pinterest.Api\\Pinterest.Api.csproj|solutionrelative:src\\pinterest.api\\endpoints\\pinendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\dto\u0027s\\pingetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|solutionrelative:src\\pinterest.application\\dto\u0027s\\pingetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\services\\ipinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|solutionrelative:src\\pinterest.application\\services\\ipinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{176A2064-7605-4088-867A-FEF72202A684}|src\\Pinterest.Api\\Pinterest.Api.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.api\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,14 +127,6 @@
       "RelativeMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|solutionrelative:src\\pinterest.infrastructure\\persistence\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.infrastructure\\persistence\\repositories\\pinlikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|solutionrelative:src\\pinterest.infrastructure\\persistence\\repositories\\pinlikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.infrastructure\\persistence\\repositories\\pinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ABCB933-D14C-4028-BEFF-6BEB6E7D8735}|src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj|solutionrelative:src\\pinterest.infrastructure\\persistence\\repositories\\pinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\dto\u0027s\\commentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|solutionrelative:src\\pinterest.application\\dto\u0027s\\commentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\dto\u0027s\\pinhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|solutionrelative:src\\pinterest.application\\dto\u0027s\\pinhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\services\\ipinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|solutionrelative:src\\pinterest.application\\services\\ipinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\services\\ipinlikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,10 +173,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\interfaces\\ipinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|solutionrelative:src\\pinterest.application\\interfaces\\ipinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\dto\u0027s\\pingetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|solutionrelative:src\\pinterest.application\\dto\u0027s\\pingetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{404AC18A-0D18-4598-8A73-C01CECF97D01}|src\\Pinterest.Application\\Pinterest.Application.csproj|d:\\pinterest\\pinterestdemo\\src\\pinterest.application\\interfaces\\ipinlikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -366,7 +366,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -374,343 +374,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthEndpoints.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\AuthEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\AuthEndpoints.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\AuthEndpoints.cs",
-              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\AuthEndpoints.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PinService.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\PinService.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\PinService.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\PinService.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Services\\PinService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwIMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T10:39:42.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:31:08.177Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PinRepository.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinRepository.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinRepository.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinRepository.cs",
+              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:06:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPinService.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IPinService.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\IPinService.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IPinService.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Services\\IPinService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:31:33.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PinGetDto.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\PinGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\PinGetDto.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\PinGetDto.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\PinGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:34:51.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PinEndpoints.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\PinEndpoints.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\PinEndpoints.cs",
               "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\PinEndpoints.cs",
               "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\PinEndpoints.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAhwDAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T11:20:30.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PinLikeEndpoints.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\PinLikeEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\PinLikeEndpoints.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\PinLikeEndpoints.cs",
-              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\PinLikeEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T11:12:09.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PinService.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\PinService.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\PinService.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\PinService.cs*",
-              "RelativeToolTip": "src\\Pinterest.Application\\Services\\PinService.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwFMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:31:08.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CommentEndpoints.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\CommentEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\CommentEndpoints.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\CommentEndpoints.cs",
-              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\CommentEndpoints.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:48:30.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "src\\Pinterest.Api\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:35:08.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Program.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Program.cs",
-              "RelativeToolTip": "src\\Pinterest.Api\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:25:09.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginResponseDto.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\LoginResponseDto.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\LoginResponseDto.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\LoginResponseDto.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\LoginResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:40:46.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\IAuthService.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IAuthService.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:54:45.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\TokenService.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Helpers\\TokenService.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\TokenService.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Helpers\\TokenService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:45:28.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GitHubUploadResponse.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\GitHubUploadResponse.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\GitHubUploadResponse.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\GitHubUploadResponse.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\GitHubUploadResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T05:47:06.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GitHubContent.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\GitHubContent.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\GitHubContent.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\GitHubContent.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\GitHubContent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T05:47:17.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\AuthService.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwEQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:48:38.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:51:04.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserRoleRepository.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
-              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:51:09.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\Security\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Helpers\\Security\\PasswordHasher.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\Security\\PasswordHasher.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Helpers\\Security\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:45:01.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EntityNotFoundException.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\EntityNotFoundException.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Core\\Errors\\EntityNotFoundException.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\EntityNotFoundException.cs",
-              "RelativeToolTip": "src\\Pinterest.Core\\Errors\\EntityNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:33:53.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BaseException.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\BaseException.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Core\\Errors\\BaseException.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\BaseException.cs",
-              "RelativeToolTip": "src\\Pinterest.Core\\Errors\\BaseException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:33:47.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "NotAllowedException.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\NotAllowedException.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Core\\Errors\\NotAllowedException.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\NotAllowedException.cs",
-              "RelativeToolTip": "src\\Pinterest.Core\\Errors\\NotAllowedException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:34:05.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RefreshTokenRepository.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
-              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:50:49.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "TimeHelper.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\TimeHelper.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Helpers\\TimeHelper.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\TimeHelper.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Helpers\\TimeHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:45:23.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserCreateDto.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\UserCreateDto.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\UserCreateDto.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\UserCreateDto.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\UserCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:40:19.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserGetDto.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\UserGetDto.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\UserGetDto.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\UserGetDto.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\UserGetDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:40:17.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RoleEndpoints.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\RoleEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\RoleEndpoints.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\RoleEndpoints.cs",
-              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\RoleEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T10:39:29.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdminEndpoints.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\AdminEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\AdminEndpoints.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\AdminEndpoints.cs",
-              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\AdminEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:46:37.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CommentRepository.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\CommentRepository.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\CommentRepository.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\CommentRepository.cs",
-              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\CommentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:06:08.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\CommentService.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\CommentService.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\CommentService.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Services\\CommentService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:43:57.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 2,
               "Title": "PinLikeRepository.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinLikeRepository.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinLikeRepository.cs",
@@ -722,19 +448,307 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PinRepository.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinRepository.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinRepository.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinRepository.cs",
-              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\PinRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PinLikeEndpoints.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\PinLikeEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\PinLikeEndpoints.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\PinLikeEndpoints.cs",
+              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\PinLikeEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:06:32.365Z"
+              "WhenOpened": "2025-07-22T11:12:09.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthEndpoints.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\AuthEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\AuthEndpoints.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\AuthEndpoints.cs",
+              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\AuthEndpoints.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:39:42.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommentEndpoints.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\CommentEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\CommentEndpoints.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\CommentEndpoints.cs",
+              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\CommentEndpoints.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T10:48:30.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\Pinterest.Api\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:35:08.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Program.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Program.cs",
+              "RelativeToolTip": "src\\Pinterest.Api\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:25:09.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\LoginResponseDto.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\LoginResponseDto.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:40:46.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IAuthService.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:54:45.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\TokenService.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Helpers\\TokenService.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\TokenService.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Helpers\\TokenService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:45:28.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GitHubUploadResponse.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\GitHubUploadResponse.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\GitHubUploadResponse.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\GitHubUploadResponse.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\GitHubUploadResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:47:06.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GitHubContent.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\GitHubContent.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\GitHubContent.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\GitHubContent.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\GitHubContent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:47:17.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:48:38.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:51:04.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRoleRepository.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
+              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:51:09.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Helpers\\Security\\PasswordHasher.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Helpers\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:45:01.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EntityNotFoundException.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\EntityNotFoundException.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Core\\Errors\\EntityNotFoundException.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\EntityNotFoundException.cs",
+              "RelativeToolTip": "src\\Pinterest.Core\\Errors\\EntityNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:33:53.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseException.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\BaseException.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Core\\Errors\\BaseException.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\BaseException.cs",
+              "RelativeToolTip": "src\\Pinterest.Core\\Errors\\BaseException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:33:47.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotAllowedException.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\NotAllowedException.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Core\\Errors\\NotAllowedException.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Core\\Errors\\NotAllowedException.cs",
+              "RelativeToolTip": "src\\Pinterest.Core\\Errors\\NotAllowedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:34:05.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:50:49.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TimeHelper.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\TimeHelper.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Helpers\\TimeHelper.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Helpers\\TimeHelper.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Helpers\\TimeHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:45:23.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\UserCreateDto.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\UserCreateDto.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\UserCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:40:19.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserGetDto.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\UserGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\UserGetDto.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\UserGetDto.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\UserGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:40:17.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RoleEndpoints.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\RoleEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\RoleEndpoints.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\RoleEndpoints.cs",
+              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\RoleEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:39:29.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminEndpoints.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\AdminEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Api\\Endpoints\\AdminEndpoints.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Endpoints\\AdminEndpoints.cs",
+              "RelativeToolTip": "src\\Pinterest.Api\\Endpoints\\AdminEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T10:46:37.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\CommentRepository.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Repositories\\CommentRepository.cs",
+              "RelativeToolTip": "src\\Pinterest.Infrastructure\\Persistence\\Repositories\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:06:08.43Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\CommentService.cs",
+              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\CommentService.cs",
+              "RelativeToolTip": "src\\Pinterest.Application\\Services\\CommentService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:43:57.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "CommentCreateDto.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\CommentCreateDto.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\CommentCreateDto.cs",
@@ -746,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "PinHelper.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\PinHelper.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\PinHelper.cs",
@@ -758,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "PinCreateDto.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\PinCreateDto.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\PinCreateDto.cs",
@@ -770,19 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IPinService.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IPinService.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\IPinService.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IPinService.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Services\\IPinService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:31:33.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "IPinLikeService.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\IPinLikeService.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\IPinLikeService.cs",
@@ -794,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ICommentService.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\ICommentService.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\ICommentService.cs",
@@ -806,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Pinterest.Domain.csproj",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Domain\\Pinterest.Domain.csproj",
               "RelativeDocumentMoniker": "src\\Pinterest.Domain\\Pinterest.Domain.csproj",
@@ -818,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Pinterest.Infrastructure.csproj",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj",
               "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Pinterest.Infrastructure.csproj",
@@ -830,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "20250721083150_InitialCreation.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Infrastructure\\Persistence\\Migrations\\20250721083150_InitialCreation.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Infrastructure\\Persistence\\Migrations\\20250721083150_InitialCreation.cs",
@@ -842,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "DependecyInjectionsConfiguration.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Api\\Configurations\\DependecyInjectionsConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Api\\Configurations\\DependecyInjectionsConfiguration.cs",
@@ -854,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "PinLikeService.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Services\\PinLikeService.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Application\\Services\\PinLikeService.cs",
@@ -866,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "IPinRepository.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Interfaces\\IPinRepository.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Application\\Interfaces\\IPinRepository.cs",
@@ -878,19 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "PinGetDto.cs",
-              "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\PinGetDto.cs",
-              "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\PinGetDto.cs",
-              "ToolTip": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\PinGetDto.cs",
-              "RelativeToolTip": "src\\Pinterest.Application\\Dto\u0027s\\PinGetDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:34:51.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "CommentDto.cs",
               "DocumentMoniker": "D:\\Pinterest\\PinterestDemo\\src\\Pinterest.Application\\Dto\u0027s\\CommentDto.cs",
               "RelativeDocumentMoniker": "src\\Pinterest.Application\\Dto\u0027s\\CommentDto.cs",

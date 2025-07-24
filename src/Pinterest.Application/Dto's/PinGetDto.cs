@@ -10,6 +10,7 @@ public class PinGetDto
     public string Description { get; set; }
     public DateTime CreatedAt { get; set; }
     public long CreatedById { get; set; }
+    public string UserName { get; set; }
     public long LikesCount { get; set; }
     public ICollection<CommentDto> Comments { get; set; }
 }
